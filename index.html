@@ -18,7 +18,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    
   </head>
   <body>
     <div class="page">
@@ -115,7 +114,7 @@
           <div class="reservation__content">
             <h2 class="reservation__title">Reservar uma mesa</h2>
           </div>
-
+<div class="form">
           <form class="form reservartion__form">
             <fieldset class="form__fieldset">
               <label for="title" class="form__label">Nome</label>
@@ -160,18 +159,20 @@
               <button type="submit" class="form__button">
                 Reservar uma mesa
               </button>
-<div class="terms_wrapper">
-              <input
-                type="checkbox"
-                name="terms"
-                id="terms"
-                class="form__checkbox"
-                required
-              />
-              <label for="terms" class="form__label">
-                Eu concordo com os termos de uso</label>
-                
-              
+              <div class="terms terms_wrapper">
+                <input
+                  type="checkbox"
+                  name="terms"
+                  id="terms"
+                  class="form__checkbox"
+                  required
+                />
+
+                <label for="terms" class="form__label"
+                  >Eu concordo com os termos de uso</label
+                >
+              </div>
+            </div>
             </fieldset>
           </form>
         </section>
